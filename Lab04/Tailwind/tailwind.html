@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-palegold: #eee8aa;
+            --color-violet: #8a2be2;
+        }
+    </style>
+</head>
+
+<body class="bg-palegold">
+    <div class="container mx-auto py-4 px-4">
+        <h1 class="text-center text-violet font-bold text-4xl mb-4">
+            Pokédex
+        </h1>
+        <div class="text-center mb-4">
+            <button
+                id="boton"
+                class="bg-violet text-white font-bold py-2 px-4 rounded-[15px]">
+                Cargar Pokémon
+            </button>
+        </div>
+        <div
+            id="galeria"
+            class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

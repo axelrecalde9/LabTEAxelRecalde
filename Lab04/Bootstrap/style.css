@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 100px;
+	padding: 100px;
+	background-color: palegoldenrod;
+	text-align: center;
+}
+
+h1 {
+	margin: 10px;
+	color: violet;
+	-webkit-text-stroke: 1px grey;
+
+}
+
+#boton {
+	background-color: violet;
+}
+
+.card {
+	border-radius: 15px;
+	background-color: white;
+	
+}
